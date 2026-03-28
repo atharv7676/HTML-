@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel and FAQ's</title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="carousel slide" data-bs-ride="carousel" id="img-slider-mountains">
+                    <div class="carousel-indicators">
+                        <button class="active" data-bs-slide-to="0" data-bs-target="#img-slider-mountains"></button>
+                        <button class="active" data-bs-slide-to="1" data-bs-target="#img-slider-mountains"></button>
+                        <button class="active" data-bs-slide-to="2" data-bs-target="#img-slider-mountains"></button>
+                        <button class="active" data-bs-slide-to="3" data-bs-target="#img-slider-mountains"></button>
+                        <button class="active" data-bs-slide-to="4" data-bs-target="#img-slider-mountains"></button>
+                        <button class="active" data-bs-slide-to="5" data-bs-target="#img-slider-mountains"></button>
+                        <button class="active" data-bs-slide-to="6" data-bs-target="#img-slider-mountains"></button>
+                        <button class="active" data-bs-slide-to="7" data-bs-target="#img-slider-mountains"></button>
+                        <button class="active" data-bs-slide-to="8" data-bs-target="#img-slider-mountains"></button>
+                        <button class="active" data-bs-slide-to="9" data-bs-target="#img-slider-mountains"></button>
+                    </div>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="mt-everest.jpg" alt="Mount-Everest" class="d-block w-100 img-fluid">
+                            <div class="carousel-caption">
+                                <p class="h1">Mt Everest</p>
+                                <p class="h5">Mount Everest is the highest mountain on Earth in Himalayas. 🏔️</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="k2.jpg" alt="K2 mountain" class="d-block w-100 img-fluid">
+                            <div class="carousel-caption">
+                                <p class="h1">K2</p>
+                                <div class="h5">K2 is the second highest mountain in world</div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="Kangchenjunga.jpg" alt="K2 mountain" class="d-block w-100 img-fluid">
+                            <div class="carousel-caption">
+                                <p class="h1">Kangchejunga</p>
+                                <div class="h5">Kangchejunga is the third highest mountain in world</div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="carousel-item">
+                            <img src="Lhotse.jpg" alt="K2 mountain" class="d-block w-100 img-fluid">
+                            <div class="carousel-caption">
+                                <p class="h1">Lhotse</p>
+                                <div class="h5">Lhotse is the forth highest mountain in world</div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="Makalu.jpg" alt="K2 mountain" class="d-block w-100 img-fluid">
+                            <div class="carousel-caption">
+                                <p class="h1">Makalu</p>
+                                <div class="h5">Makalu is the fifth highest mountain in world</div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="NangpaLa.jpg" alt="K2 mountain" class="d-block w-100 img-fluid">
+                            <div class="carousel-caption">
+                                <p class="h1">Cho Oyu</p>
+                                <div class="h5">Cho Oyu is the sixth highest mountain in world</div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="Dhaulagiri_-_view_from_aircraft.jpg" alt="K2 mountain"
+                                class="d-block w-100 img-fluid">
+                            <div class="carousel-caption">
+                                <p class="h1">Dhaulagiri</p>
+                                <div class="h5">Dhaulagiri is the seventh highest mountain in world</div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="manaslu.jpg" alt="K2 mountain" class="d-block w-100 img-fluid">
+                            <div class="carousel-caption">
+                                <p class="h1">Manaslu</p>
+                                <div class="h5">Manaslu is the Eighth highest mountain in world</div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="nanga_parbat.jpg" alt="K2 mountain" class="d-block w-100 img-fluid">
+                            <div class="carousel-caption">
+                                <p class="h1">Nanga_parbat</p>
+                                <div class="h5">nanga_parbat is the Ninth highest mountain in world</div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="Annapurna+1+main.jpg" alt="K2 mountain" class="d-block w-100 img-fluid">
+                            <div class="carousel-caption">
+                                <p class="h1">Annapurna</p>
+                                <div class="h5">Annapurna is the tenth highest mountain in world</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#img-slider-mountains"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+
+                    <button class="carousel-control-next" type="button" data-bs-target="#img-slider-mountains"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="carousel slide" data-bs-ride="carousel" id="img-slider-waterfalls">
+                    <div class="carousel-indicators">
+                        <button class="active" data-bs-slide-to="0" data-bs-target="#img-slider-waterfalls"></button>
+                        <button class="active" data-bs-slide-to="1" data-bs-target="#img-slider-waterfalls"></button>
+                        <button class="active" data-bs-slide-to="2" data-bs-target="#img-slider-waterfalls"></button>
+                        <button class="active" data-bs-slide-to="3" data-bs-target="#img-slider-waterfalls"></button>
+                        <button class="active" data-bs-slide-to="4" data-bs-target="#img-slider-waterfalls"></button>
+                        <button class="active" data-bs-slide-to="5" data-bs-target="#img-slider-waterfalls"></button>
+                        <button class="active" data-bs-slide-to="6" data-bs-target="#img-slider-waterfalls"></button>
+                        <button class="active" data-bs-slide-to="7" data-bs-target="#img-slider-waterfalls"></button>
+                        <button class="active" data-bs-slide-to="8" data-bs-target="#img-slider-waterfalls"></button>
+                        <button class="active" data-bs-slide-to="9" data-bs-target="#img-slider-waterfalls"></button>
+                    </div>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="Nigerian.jpeg" alt="Niagara" class="d-block w-100 img-fluid">
+                            <div class="carousel-caption">
+                                <p class="h1">Niagara Falls</p>
+                                <p class="h5">Famous powerful waterfall located between Canada and United States border.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="2Angel.jpeg" alt="Angel" class="d-block w-100 img-fluid">
+                            <div class="carousel-caption">
+                                <p class="h1">Angel Falls</p>
+                                <div class="h5">World’s tallest waterfall dropping 979 meters in Venezuela rainforest.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="3victoria.jpeg" alt="Victoria mountain" class="d-block w-100 img-fluid">
+                            <div class="carousel-caption">
+                                <p class="h1">Victoria</p>
+                                <div class="h5">Huge waterfall on Zambezi River between Zambia and Zimbabwe.</div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="carousel-item">
+                            <img src="10igazu.jpeg" alt="Iguazu Falls" class="d-block w-100 img-fluid">
+                            <div class="carousel-caption">
+                                <p class="h1">Iguazu Falls</p>
+                                <div class="h5">Massive waterfall system with about 275 cascades Argentina Brazil
+                                    border.</div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="4yosemite.jpeg" alt="Yosemite Falls" class="d-block w-100 img-fluid">
+                            <div class="carousel-caption">
+                                <p class="h1">Yosemite Falls</p>
+                                <div class="h5">Tall waterfall in Yosemite National Park California United States.</div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="5plitwise.jpeg" alt="Plitvice Waterfall" class="d-block w-100 img-fluid">
+                            <div class="carousel-caption">
+                                <p class="h1">Plitvice Waterfall</p>
+                                <div class="h5">Beautiful cascading lakes and waterfalls in Croatia national park.</div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="6jog.jpeg" alt="Jog Falls" class="d-block w-100 img-fluid">
+                            <div class="carousel-caption">
+                                <p class="h1">Jog Falls</p>
+                                <div class="h5">One of India’s highest waterfalls located in Karnataka Western Ghats.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="7dhoodhsagar.jpeg" alt="DudhSagar WaterFall" class="d-block w-100 img-fluid">
+                            <div class="carousel-caption">
+                                <p class="h1">Dudhsagar Falls</p>
+                                <div class="h5">Dudhsagar Falls – Tall four-tier waterfall located in Goa surrounded by
+                                    forests.</div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="8Kaieteur.jpeg" alt="K2 mountain" class="d-block w-100 img-fluid">
+                            <div class="carousel-caption">
+                                <p class="h1">Kaieteur Falls</p>
+                                <div class="h5">Kaieteur Falls – Powerful single-drop waterfall in Guyana Amazon
+                                    rainforest region.</div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="9Dettifoss.jpeg" alt="K2 mountain" class="d-block w-100 img-fluid">
+                            <div class="carousel-caption">
+                                <p class="h1">Dettifoss</p>
+                                <div class="h5">Dettifoss – One of Europe’s most powerful waterfalls located in Iceland.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#img-slider-waterfalls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+
+                    <button class="carousel-control-next" type="button" data-bs-target="#img-slider-waterfalls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row mt-4">
+            <div class="col-md-3">
+                <div class="card card-bg-4">
+                    <div class="card-header text-info fs-bold text-center">
+                        <p class="h3">Dosa</p>
+                    </div>
+
+                    <div class="card-body">
+                        <img src="dosa.jpg" alt="Dosa Image" class="img-fluid">
+                        <div class="card-title">
+                            <p class="h3 text-success">Ready to taste?</p>
+                        </div>
+                        <div class="card-text">
+                            <p class="text-black">Dosa is a popular South Indian dish made from fermented rice and
+                                lentil batter. It is thin, crispy, and served hot with coconut chutney, sambar, and
+                                sometimes potato masala filling.</p>
+                        </div>
+                        <button class="btn btn-outline-success">Read More</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card card-bg-4">
+                    <div class="card-header text-info fs-bold text-center">
+                        <p class="h3">Jolad Rotti</p>
+                    </div>
+
+                    <div class="card-body">
+                        <img src="jolad rotti.jpg" alt="Jolad Rotti Image" class="img-fluid">
+                        <div class="card-title">
+                            <p class="h3 text-success">Ready to taste?</p>
+                        </div>
+                        <div class="card-text">
+                            <p class="text-black">Jolad Rotti is a traditional North Karnataka flatbread made from jowar
+                                flour. It is soft and healthy, usually served with spicy curries, chutneys, vegetables,
+                                traditional thali meal.</p>
+                        </div>
+                        <button class="btn btn-outline-dark">Read More</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card card-bg-4">
+                    <div class="card-header text-info fs-bold text-center">
+                        <p class="h3">Biriyani</p>
+                    </div>
+
+                    <div class="card-body">
+                        <img src="Ambur-Chicken-Biriyani.jpg" alt="Biriyani Image" class="img-fluid">
+                        <div class="card-title">
+                            <p class="h3 text-success">Ready to taste?</p>
+                        </div>
+                        <div class="card-text">
+                            <p class="text-black">Biryani is a famous Indian rice dish made with fragrant basmati rice,
+                                spices, herbs, and meat or vegetables. It is slow-cooked for rich flavor and usually
+                                served with raita, salad, or boiled eggs.</p>
+                        </div>
+                        <button class="btn btn-outline-warning">Read More</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card card-bg-4">
+                    <div class="card-header text-info fs-bold text-center">
+                        <p class="h3">Misal-Pav</p>
+                    </div>
+
+                    <div class="card-body">
+                        <img src="misal-pav-recipe.jpg" alt="Misal Image" class="img-fluid">
+                        <div class="card-title">
+                            <p class="h3 text-success">Ready to taste?</p>
+                        </div>
+                        <div class="card-text">
+                            <p class="text-black">Misal Pav is a spicy Maharashtrian dish made with sprouted lentil
+                                curry called misal. It is topped with crunchy farsan, onions, and coriander, and served
+                                hot with soft pav bread.</p>
+                        </div>
+                        <button class="btn btn-outline-secondary">Read More</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="accordion mt-4 bg-info" id="faq">
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button type="button" class="btn accordion-button  collapsed btn-outline-dark"
+                        data-bs-toggle="collapse" data-bs-target="#one">
+                        <h4>What is food?</h4>
+                    </button>
+                </div>
+                <div class="collapse accordion-collapse" id="one" data-bs-parent="#faq">
+                    <div class="accordion-body bg-light text-success"></div>
+                    <p class="h5">Food is any substance that people or animals eat or drink to get energy and nutrients.
+                        It helps the body grow, repair tissues, and maintain good health and proper body functions.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button type="button" class="btn accordion-button collapsed btn-outline-dark"
+                        data-bs-toggle="collapse" data-bs-target="#two">
+                        <h4>Why is food important for our body?</h4>
+                    </button>
+                </div>
+                <div class="collapse accordion-collapse" id="two" data-bs-parent="#faq">
+                    <div class="accordion-body bg-light text-success"></div>
+                    <p class="h5">Food provides energy for daily activities and supplies nutrients that help the body
+                        grow, repair tissues, and maintain a healthy immune system.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button type="button" class="btn accordion-button collapsed btn-outline-dark"
+                        data-bs-toggle="collapse" data-bs-target="#three">
+                        <h4>What are the main nutrients in food?</h4>
+                    </button>
+                </div>
+                <div class="collapse accordion-collapse" id="three" data-bs-parent="#faq">
+                    <div class="accordion-body bg-light text-success"></div>
+                    <p class="h5">The main nutrients in food are carbohydrates, proteins, fats, vitamins, minerals, and
+                        water which help the body stay healthy and active.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button type="button" class="btn accordion-button collapsed btn-outline-dark"
+                        data-bs-toggle="collapse" data-bs-target="#four">
+                        <h4>What is a balanced diet?</h4>
+                    </button>
+                </div>
+                <div class="collapse accordion-collapse" id="four" data-bs-parent="#faq">
+                    <div class="accordion-body bg-light text-success"></div>
+                    <p class="h5">A balanced diet contains the right amounts of carbohydrates, proteins, fats, vitamins,
+                        minerals, and fiber needed for proper body growth and health.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button type="button" class="btn accordion-button collapsed btn-outline-dark"
+                        data-bs-toggle="collapse" data-bs-target="#five">
+                        <h4>Why should we eat fruits and vegetables?</h4>
+                    </button>
+                </div>
+                <div class="collapse accordion-collapse" id="five" data-bs-parent="#faq">
+                    <div class="accordion-body bg-light text-success"></div>
+                    <p class="h5">Fruits and vegetables provide vitamins, minerals, antioxidants, and fiber that help
+                        improve digestion and strengthen the immune system.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button type="button" class="btn accordion-button collapsed btn-outline-dark"
+                        data-bs-toggle="collapse" data-bs-target="#six">
+                        <h4>What is junk food?</h4>
+                    </button>
+                </div>
+                <div class="collapse accordion-collapse" id="six" data-bs-parent="#faq">
+                    <div class="accordion-body bg-light text-success"></div>
+                    <p class="h5">Junk food is food that contains high sugar, salt, and unhealthy fats but very little
+                        nutritional value.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button type="button" class="btn accordion-button collapsed btn-outline-dark"
+                        data-bs-toggle="collapse" data-bs-target="#seven">
+                        <h4>Why should we avoid too much junk food?</h4>
+                    </button>
+                </div>
+                <div class="collapse accordion-collapse" id="seven" data-bs-parent="#faq">
+                    <div class="accordion-body bg-light text-success"></div>
+                    <p class="h5">Too much junk food can cause obesity, heart disease, diabetes, and other health
+                        problems.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button type="button" class="btn accordion-button collapsed btn-outline-dark"
+                        data-bs-toggle="collapse" data-bs-target="#eight">
+                        <h4>What is vegetarian food?</h4>
+                    </button>
+                </div>
+                <div class="collapse accordion-collapse" id="eight" data-bs-parent="#faq">
+                    <div class="accordion-body bg-light text-success"></div>
+                    <p class="h5">Vegetarian food includes plant-based foods such as fruits, vegetables, grains, nuts,
+                        and dairy products but does not include meat or fish.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button type="button" class="btn accordion-button collapsed btn-outline-dark"
+                        data-bs-toggle="collapse" data-bs-target="#nine">
+                        <h4>What is non-vegetarian food?</h4>
+                    </button>
+                </div>
+                <div class="collapse accordion-collapse" id="nine" data-bs-parent="#faq">
+                    <div class="accordion-body bg-light text-success"></div>
+                    <p class="h5">Non-vegetarian food includes meat, fish, eggs, and poultry which are rich in proteins
+                        and nutrients.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button type="button" class="btn accordion-button collapsed btn-outline-dark"
+                        data-bs-toggle="collapse" data-bs-target="#ten">
+                        <h4>Why is breakfast important?</h4>
+                    </button>
+                </div>
+                <div class="collapse accordion-collapse" id="ten" data-bs-parent="#faq">
+                    <div class="accordion-body bg-light text-success"></div>
+                    <p class="h5">Breakfast provides energy after a long night without food and helps improve
+                        concentration and metabolism.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button type="button" class="btn accordion-button collapsed btn-outline-dark"
+                        data-bs-toggle="collapse" data-bs-target="#eleven">
+                        <h4>What are proteins used for?</h4>
+                    </button>
+                </div>
+                <div class="collapse accordion-collapse" id="eleven" data-bs-parent="#faq">
+                    <div class="accordion-body bg-light text-success"></div>
+                    <p class="h5">Proteins help build and repair body tissues and muscles and are essential for growth.
+                    </p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button type="button" class="btn accordion-button collapsed btn-outline-dark"
+                        data-bs-toggle="collapse" data-bs-target="#twelve">
+                        <h4>Why do we need carbohydrates?</h4>
+                    </button>
+                </div>
+                <div class="collapse accordion-collapse" id="twelve" data-bs-parent="#faq">
+                    <div class="accordion-body bg-light text-success"></div>
+                    <p class="h5">Carbohydrates are the main source of energy for the body and help the brain function
+                        properly.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button type="button" class="btn accordion-button collapsed btn-outline-dark"
+                        data-bs-toggle="collapse" data-bs-target="#thirteen">
+                        <h4>What are vitamins?</h4>
+                    </button>
+                </div>
+                <div class="collapse accordion-collapse" id="thirteen" data-bs-parent="#faq">
+                    <div class="accordion-body bg-light text-success"></div>
+                    <p class="h5">Vitamins are nutrients that help maintain body functions and protect the body from
+                        diseases.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button type="button" class="btn accordion-button collapsed btn-outline-dark"
+                        data-bs-toggle="collapse" data-bs-target="#fourteen">
+                        <h4>Why is drinking water important?</h4>
+                    </button>
+                </div>
+                <div class="collapse accordion-collapse" id="fourteen" data-bs-parent="#faq">
+                    <div class="accordion-body bg-light text-success"></div>
+                    <p class="h5">Water helps regulate body temperature, aids digestion, transports nutrients, and
+                        removes waste.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button type="button" class="btn accordion-button collapsed btn-outline-dark"
+                        data-bs-toggle="collapse" data-bs-target="#fifteen">
+                        <h4>What is organic food?</h4>
+                    </button>
+                </div>
+                <div class="collapse accordion-collapse" id="fifteen" data-bs-parent="#faq">
+                    <div class="accordion-body bg-light text-success"></div>
+                    <p class="h5">Organic food is produced without synthetic chemicals or pesticides and is considered
+                        environmentally friendly.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button type="button" class="btn accordion-button collapsed btn-outline-dark"
+                        data-bs-toggle="collapse" data-bs-target="#sixteen">
+                        <h4>What is fast food?</h4>
+                    </button>
+                </div>
+                <div class="collapse accordion-collapse" id="sixteen" data-bs-parent="#faq">
+                    <div class="accordion-body bg-light text-success"></div>
+                    <p class="h4">Fast food is food that is prepared and served quickly such as burgers, fries, and
+                        sandwiches.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button type="button" class="btn accordion-button collapsed btn-outline-dark"
+                        data-bs-toggle="collapse" data-bs-target="#seventeen">
+                        <h4>Why should we wash fruits before eating?</h4>
+                    </button>
+                </div>
+                <div class="collapse accordion-collapse" id="seventeen" data-bs-parent="#faq">
+                    <div class="accordion-body bg-light text-success"></div>
+                    <p class="h4">Washing fruits removes dirt, bacteria, and pesticide residues that may be present.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button type="button" class="btn accordion-button collapsed btn-outline-dark"
+                        data-bs-toggle="collapse" data-bs-target="#eighteen">
+                        <h4>What is healthy food?</h4>
+                    </button>
+                </div>
+                <div class="collapse accordion-collapse" id="eighteen" data-bs-parent="#faq">
+                    <div class="accordion-body bg-light text-success"></div>
+                    <p class="h4">Healthy food contains nutrients that support body growth, energy, and overall health.
+                    </p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button type="button" class="btn accordion-button collapsed btn-outline-dark"
+                        data-bs-toggle="collapse" data-bs-target="#nineteen">
+                        <h4>Why should we eat food on time?</h4>
+                    </button>
+                </div>
+                <div class="collapse accordion-collapse" id="nineteen" data-bs-parent="#faq">
+                    <div class="accordion-body bg-light text-success"></div>
+                    <p class="h4">Eating food on time helps maintain proper digestion and stable energy levels.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button type="button" class="btn accordion-button collapsed btn-outline-dark"
+                        data-bs-toggle="collapse" data-bs-target="#twenty">
+                        <h4>What is traditional food?</h4>
+                    </button>
+                </div>
+                <div class="collapse accordion-collapse" id="twenty" data-bs-parent="#faq">
+                    <div class="accordion-body bg-light text-success"></div>
+                    <p class="h4">Traditional food represents the culture and cooking style of a particular region.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card bg-dark mt-4">
+
+    <div class="row g-0">
+        
+        <div class="col-md-4">
+            <img src="dosa.jpg" alt="Dosa Image" class="img-fluid rounded-start">
+        </div>
+
+        <div class="col-md-8">
+            <div class="card-body">
+                <h2 class="card-title text-white">Delicious Dosa</h2>
+                <p class="card-text text-white">
+                Dosa is a popular South Indian dish made from fermented rice and lentil batter. 
+                It is thin, crispy, and served hot with coconut chutney, sambar, and sometimes 
+                potato masala filling.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+            
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

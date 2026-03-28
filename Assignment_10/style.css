@@ -1,0 +1,54 @@
+body {
+    background-image: linear-gradient( 109deg,  rgba(160,24,80,1) 11.2%, rgba(201,138,75,1) 81.7% );
+    font-family: cursive;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;              
+    padding: 40px;
+}
+
+.box {
+    width: 160px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 12px;
+    font-size: 18px;
+}
+
+.box1 {
+     background: #e74c3c; 
+    }
+.box2 {
+    background: #3498db; 
+}
+.box3 {
+        background: #2ecc71; 
+    }
+.box4 {
+     background: #9b59b6; 
+    }
+.box5 {
+     background: #f39c12; 
+    }
+.box6 {
+     background: #1abc9c;
+     }
+
+.box7 {
+     background: #e67e22; 
+    }
+
+.box8 {
+     background: #16a085; 
+    }
+.box9 {
+     background: #d35400; 
+    }
+.box10 {
+     background: #8e44ad; 
+    }

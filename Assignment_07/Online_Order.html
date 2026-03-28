@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="">
+        <div class="form form8">
+            <h1>Online Order Form</h1>
+
+            <div>
+                <input type="text" name="customerName" required placeholder="Enter your Name">
+            </div>
+
+
+            <div>
+                <select name="product" required>
+                    <option value="">--Select Product--</option>
+                    <option>Laptop</option>
+                    <option>Mobile</option>
+                    <option>Headphones</option>
+                    <option>Smart Watch</option>
+                </select>
+            </div>
+            <div>
+
+                <input type="number" name="quantity" min="1" required placeholder="Enter product quantity">
+            </div>
+
+            <div>
+
+                <textarea name="address" rows="4" cols="30" required placeholder="Enter Your Adress"></textarea>
+            </div>
+            <div>
+
+                <label>Payment Method:</label>
+                <input type="radio" name="payment" value="Credit Card"> Credit Card
+                <input type="radio" name="payment" value="Debit Card"> Debit Card
+                <input type="radio" name="payment" value="UPI"> UPI
+
+            </div>
+            <div>
+                <input type="submit" value="Place Order">
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>

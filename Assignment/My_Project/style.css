@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.hero_img{
+    height: 100vh;
+    background-image: radial-gradient( circle farthest-corner at 50% 52.5%,  rgba(14,53,92,1) 0%, rgba(16,14,72,1) 90% );
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+}
+.hero_img h1{
+    font-size: 50px;
+    font-family: cursive;
+    color: white;
+    position:absolute;
+    top: 40%;
+    left:13%;
+}
+.hero_img h1:hover{
+    text-shadow: 0px  -3px  20px gold;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.nav_container{
+    width: 70%;
+    height: 100px;
+}
+.nav_container a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    width: auto;
+    
+}
+.nav_container ul{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap:50px;
+    height: inherit;
+    width: inherit;
+    transition: all 1s;
+}
+.nav_container ul li:hover{
+    text-shadow: 0px 0px 15px yellow;
+    transform: scale(1.2, 1.2);
+}
+
+.logo_container img{
+    width: 150px;
+    height: 100px;
+    height: inherit;
+    padding: 0px;
+    margin-left: 30px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+.account_search{
+    width: 20%;
+    justify-content: left;
+    align-items: center;
+    display: flex;
+    gap:30px;
+}
+.account_search i{
+    color:black;
+    font-size: 30px;
+}
+.account_search i:hover{
+    text-shadow: 0px 0px 15px yellow;
+}
+.search-box{
+    display: flex;
+    height: 30px;
+}
+.search-box input{
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    height:30px;
+    border: none;
+}
+.search-box input[type='text']::placeholder{
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.all_special{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+.special{
+    background-color: #212832;
+    height: 250px;
+    width:600px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    overflow:hidden
+}
+
+.special .image{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-image: url(dosa.jpg);
+}
+
+
+.image:hover{
+    transform: scale(1.2, 1.2);
+}
+
+
+.special h2,h4{
+    color:white;
+    font-family: cursive;
+}

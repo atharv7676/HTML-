@@ -1,0 +1,142 @@
+.cedarville-cursive-regular {
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.alfa-slab-one-regular{
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.container nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    gap: 30px;
+}
+ul li{
+    list-style-type: none;
+}
+ul li a:hover{
+    color: blueviolet !important;
+    font-weight: bold;
+    text-decoration: underline !important;
+}
+.nav-link.active{
+    color: blueviolet !important;
+    font-weight: bold;
+    text-decoration: underline !important;
+}
+.mid-section{
+    margin-top: 100px;
+}
+.mid-section h1{
+    font-size: 90px;
+    font-weight: bolder;
+}
+.mid-section h1 span{
+    color: blueviolet;
+}
+.h4 span{
+    color: blueviolet;
+    font-size: larger;
+    font-weight:bolder;
+}
+.pic-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25%;
+}
+.photo-frame-outer{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    border:2px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo-frame{
+    height:300px;
+    width: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.photo-frame img{
+    height: inherit;
+    width: inherit;
+    filter: grayscale(100%);
+}
+
+.photo-frame img:hover{
+    filter: grayscale(0%);
+}
+.image{
+    border-radius: 20px;
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+}
+.image img{
+    height: inherit;
+    width: inherit;
+    margin-bottom: 100px;
+}
+.skill_container{
+    background-image: linear-gradient( 109.6deg,  rgba(34,211,238,1) 11.2%, rgba(79,57,246,1) 100.2% );
+    margin: 0px;
+    padding: 0px;
+}
+.skill_container p{
+    font-size: 70px;
+}
+.skill_container p span{
+    color: blueviolet;
+}
+.skill_container nav{
+    display: flex;
+    justify-content: space-around;
+}
+.skill_container nav ul{
+    display: block;
+}
+.intro-section{
+    margin-top: 50px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.intro-section h1{
+    font-size: 70px;
+}
+.intro-section span{
+    color: blueviolet;
+}
+.send-button input{
+    background-color: blueviolet;
+    color: white;
+}
+
+.card-body{
+    transition: all .5s linear;
+}
+.card-body:hover{
+    transform:scale(1.02);
+}
+.cards{
+    transition: all .5s linear;
+}
+.cards:hover{
+    transform:translateY(-10px)
+}
+.skill-container{
+    display: flex;
+    justify-content: space-between;
+}
+

@@ -1,0 +1,225 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: cursive;
+}
+
+.universe {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.sun {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #ffdd00, #ff8c00, #ff4500);
+    ;
+    box-shadow: 0px 0px 15px red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0,0,0,0.0);
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    transition: all 1s;
+}
+.sun:hover{
+    box-shadow:  0px 0px 45px red;
+}
+
+.sun:hover h1{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    bottom:200%;   
+}
+
+.planets{
+    position : absolute;
+    border-radius: 50%;
+    transition: all 1s;
+    color: rgba(0,0,0,0.0);
+}
+.planets:hover{
+    box-shadow:  0px 0px 45px rgb(87, 206, 192),inset -8px -8px 15px rgba(0,0,0,0.4);
+    transform: scale(1.2, 1.2);
+}
+
+.planets:hover h1{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    bottom:200%;  
+}
+
+.mercury{
+    height: 20px;
+    width:20px;
+   background: linear-gradient(45deg, #b1b1b1, #7a7a7a, #4d4d4d);
+    box-shadow: 0px, 10px, 35px yellow;
+    top:50%;
+    left:55%;
+}
+.venus{
+    height: 40px;
+    width:40px;
+   background: linear-gradient(45deg, #f5deb3, #d2b48c, #a0522d);
+    box-shadow: 0px, 10px, 35px yellow;
+    top:50%;
+    left:60%;
+}
+.earth{
+    height: 50px;
+    width:50px;
+    background: linear-gradient(45deg, #1e90ff, #2e8b57, #0b3d91);
+    box-shadow: 0px, 10px, 35px yellow;
+    top:50%;
+    left:65%;
+}
+.mars{
+    height: 20px;
+    width:20px;
+    background: linear-gradient(45deg, #ff4500, #b22222, #8b0000);
+    box-shadow: 0px, 10px, 35px yellow;
+    top:50%;
+    left:70%;
+}
+.jupiter{
+    height: 70px;
+    width:70px;
+   background: linear-gradient(
+    45deg,
+    #d2b48c,
+    #cd853f,
+    #a0522d,
+    #8b4513
+  );
+    box-shadow: 0px, 10px, 35px yellow;
+    top:50%;
+    left:75%;
+}
+.saturn{
+    height: 60px;
+    width:60px;
+    background: linear-gradient(45deg, #f4e2d8, #d2b48c, #c2a878);
+    box-shadow: 0px, 10px, 35px yellow;
+    top:50%;
+    left:80%;
+}
+.uranus{
+    height: 60px;
+    width:60px;
+    background: linear-gradient(45deg, #afeeee, #40e0d0, #00ced1);
+    box-shadow: 0px, 10px, 35px yellow;
+    top:50%;
+    left:85%;
+}
+.neptune{
+    height: 40px;
+    width:40px;
+    background: linear-gradient(45deg, #4169e1, #0000cd, #00008b);
+    box-shadow: 0px, 10px, 35px yellow;
+    top:50%;
+    left:90%;
+}
+
+.ring{
+    height: 20px;
+    width: 80px;
+    border-radius: 50%;
+    border:#c2a878 3px solid;
+    position: absolute;
+    top:50%;
+    left:60%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.mercury-orbit,
+.venus-orbit,
+.earth-orbit,
+.mars-orbit,
+.jupiter-orbit,
+.saturn-orbit,
+.uranus-orbit,
+.neptune-orbit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mercury-orbit {
+    width: 200px;
+    height: 200px;
+    animation: spin 5s linear infinite;
+}
+
+.venus-orbit {
+    width: 260px;
+    height: 260px;
+    animation: spin 8s linear infinite;
+}
+
+.earth-orbit {
+    width: 330px;
+    height: 330px;
+    animation: spin 12s linear infinite;
+}
+
+.mars-orbit {
+    width: 400px;
+    height: 400px;
+    animation: spin 18s linear infinite;
+}
+
+.jupiter-orbit {
+    width: 500px;
+    height: 500px;
+    animation: spin 25s linear infinite;
+}
+
+.saturn-orbit {
+    width: 600px;
+    height: 600px;
+    animation: spin 35s linear infinite;
+}
+
+.uranus-orbit {
+    width: 700px;
+    height: 700px;
+    animation: spin 45s linear infinite;
+}
+
+.neptune-orbit {
+    width: 800px;
+    height: 800px;
+    animation: spin 60s linear infinite;
+}
+
+
+.planets {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes spin {
+    from {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
